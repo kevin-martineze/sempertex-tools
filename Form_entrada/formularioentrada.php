@@ -35,7 +35,70 @@ include("enviodatos.php");
     </head>
 
     <body>
-        
+        <div class="container">
+            <h2 style="text-align: center;">Ingreso</h2>
+            <hr>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo1" class="form-label">Campo 1</label>
+                                    <input type="text" class="form-control" id="campo1" placeholder="Campo 1">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo2" class="form-label">Campo 2</label>
+                                    <input type="text" class="form-control" id="campo2" placeholder="Campo 2">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo3" class="form-label">Campo 3</label>
+                                    <input type="text" class="form-control" id="campo3" placeholder="Campo 3">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo4" class="form-label">Campo 4</label>
+                                    <input type="text" class="form-control" id="campo4" placeholder="Campo 4">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo5" class="form-label">Campo 5</label>
+                                    <input type="text" class="form-control" id="campo5" placeholder="Campo 5">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo6" class="form-label">Campo 6</label>
+                                    <input type="text" class="form-control" id="campo6" placeholder="Campo 6">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo7" class="form-label">Campo 7</label>
+                                    <input type="text" class="form-control" id="campo7" placeholder="Campo 7">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="campo8" class="form-label">Campo 8</label>
+                                    <input type="text" class="form-control" id="campo8" placeholder="Campo 8">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 
     </html>
